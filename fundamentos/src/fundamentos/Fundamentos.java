@@ -15,6 +15,11 @@ public class Fundamentos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String name = "Moises";
+        int idade = 40;
+        boolean estudando = true;
+        double media =5.5;
+        
     }
     
 }
