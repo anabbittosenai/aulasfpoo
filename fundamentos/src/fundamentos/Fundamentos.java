@@ -18,9 +18,14 @@ public class Fundamentos {
         String name = "Moises";
         int idade = 40;
         boolean estudando = true;
-        double media =5.5;
-        
+        double media = 5.5;
+
         String bairro = new String("Centro");
+
+        // DEclaração de wrapper
+        int nota1 = Integer.parseInt("S");
+        double mediaF = Double.parseDouble("5.5");
+        boolean aprovado = Boolean.parseBoolean("true");
     }
-    
+
 }
