@@ -22,7 +22,19 @@ public class Enumeração {
         Livros livros4 = new Livros(EnumLivros.TERROR.getGeneros());
         System.out.println(livros4);
         
-        Cantina cantina = new Cantina(CantinaEnum.BOMBOM_DE_MORANGO.ge)
+        //BOMBOM_DE_MORANGO,DORITOSDISCATFANTA_UVADOCE_DE_ABOBORAMORANGOSSUCO_DE_CAIXINHAPASTEL
+        
+        Cantina cantina = new Cantina(CantinaEnum.BOMBOM_DE_MORANGO.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.DORITOS.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.DISCAT.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.FANTA_UVA.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.DOCE_DE_ABOBORA.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.MORANGOS.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.SUCO_DE_CAIXINHA.getDeclaringClass());
+        Cantina cantina = new Cantina(CantinaEnum.PASTEL.getDeclaringClass());
+        
+        //JANEIRO("Janeiro")FEVEREIROMARCO ABRIU MAIO JULHO JUNHO AGOSTO SETEMBRO OUTUBRO NOVEMBRO DESEMBRO
+        Meses meses = new 
     }
     
 }
