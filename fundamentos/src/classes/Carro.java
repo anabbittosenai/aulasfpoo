@@ -15,8 +15,7 @@ public class Carro {
         this.cor = cor;
         this.ano = ano;
         this.rodas = rodas;
-        this.marcha = marcha;
-        
+        this.marcha = marcha;   
     }
 
     @Override
